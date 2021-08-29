@@ -2,7 +2,7 @@
  * @Author: Matt Meng
  * @Date: 2021-04-11 17:19:14
  * @LastEditors: Matt Meng
- * @LastEditTime: 2021-08-28 16:32:09
+ * @LastEditTime: 2021-08-29 11:23:30
  * @Description: file content
  */
 package cmd
@@ -20,4 +20,5 @@ func Execute() error {
 func init() {
     rootCmd.AddCommand(wordCmd)
     rootCmd.AddCommand(timeCmd)
+    rootCmd.AddCommand(sqlCmd)
 }
